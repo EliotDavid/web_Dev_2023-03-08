@@ -23,6 +23,7 @@ public class PostDepartmentRequestDto {
     @Min(1)
     private int cheif;
 
+    // 호호
     @NotBlank
     @Length(min = 0, max = 15)
     private String telNumber;
